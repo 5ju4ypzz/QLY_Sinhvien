@@ -32,8 +32,8 @@ namespace QLY_Sinhvien
 
         private void btndong_Click(object sender, EventArgs e)
         {
-            if (MyPublic.conMyConnection != null)
-                MyPublic.conMyConnection = null;
+            if (Mypublic.conMyConnection != null)
+                Mypublic.conMyConnection = null;
             fMain.mnuDuLieu.Enabled = false;
             fMain.mnucapnhat.Enabled = false;
             fMain.mnudoipass.Enabled = false;
@@ -56,34 +56,34 @@ namespace QLY_Sinhvien
             SqlCommand cmdCommand;
             SqlDataReader drReader;
             string sqlSelect, strPasswordSV;
-            MyPublic.strsever = txtMaychu.Text;
+            Mypublic.strsever = txtMaychu.Text;
             try
             {
-                MyPublic.ConnectionDatabase();
-                if (MyPublic.conMyConnection.State == ConnectionState.Open)
+                Mypublic.ConnectionDatabase();
+                if (Mypublic.conMyConnection.State == ConnectionState.Open)
                 {
-                    MyPublic.strMSSV = txtMSSV.Text;
+                    Mypublic.strMSSV = txtMSSV.Text;
                     //strPasswordSV = txtMatkhau.Text;
-                    strPasswordSV = MyPublic.MaHoaPassword(txtMatkhau.Text);
+                    strPasswordSV = Mypublic.MaHoaPassword(txtMatkhau.Text);
                     sqlSelect = "Select MSLop, QuyenSD From SinhVien Where MSSV = @MSSV And MatKhau = @MatKhau";
-                    cmdCommand = new SqlCommand(sqlSelect, MyPublic.conMyConnection);
+                    cmdCommand = new SqlCommand(sqlSelect, Mypublic.conMyConnection);
                     cmdCommand.Parameters.AddWithValue("@MSSV", txtMSSV.Text);
                     cmdCommand.Parameters.AddWithValue("@MatKhau", txtMatkhau.Text);
                     drReader = cmdCommand.ExecuteReader();
                     if (drReader.HasRows)
                     {
                         drReader.Read();
-                        MyPublic.strLop = drReader.GetString(0);
-                        MyPublic.strQuyensd = drReader.GetString(1);
+                        Mypublic.strLop = drReader.GetString(0);
+                        Mypublic.strQuyenSD = drReader.GetString(1);
                         drReader.Close();
-                        MyPublic.XacDinhHKNK();
+                        Mypublic.XacDinhHKNK();
                         fMain.mnuDuLieu.Enabled = true;
                         fMain.mnucapnhat.Enabled = true;
                         fMain.mnudangnhap.Enabled = true;
                         fMain.mnudoipass.Enabled = true;
                         fMain.mnuthoatDN.Enabled = true;
                         MessageBox.Show("Đăng nhập thành công", "Thông báo");
-                        MyPublic.conMyConnection.Close();
+                        Mypublic.conMyConnection.Close();
                         this.Close();
                     }
                     else
@@ -96,7 +96,7 @@ namespace QLY_Sinhvien
                         else
                         {
                             MessageBox.Show("Lỗi đăng nhâp, Form sẽ đóng", "Thông báo");
-                            MyPublic.conMyConnection.Close();
+                            Mypublic.conMyConnection.Close();
                             fMain.mnuDuLieu.Enabled = false;
                             fMain.mnucapnhat.Enabled = false;
                             fMain.mnudoipass.Enabled = false;

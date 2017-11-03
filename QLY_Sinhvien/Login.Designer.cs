@@ -137,7 +137,7 @@
             this.Controls.Add(this.btndong);
             this.Controls.Add(this.btndangnhap);
             this.Name = "frmdangnhap";
-            this.Text = ".";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.frmdangnhap_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

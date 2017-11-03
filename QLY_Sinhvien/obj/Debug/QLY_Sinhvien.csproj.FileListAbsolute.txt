@@ -1,0 +1,12 @@
+C:\Users\Student\Downloads\QL_SinhVien-master\QLY_Sinhvien\bin\Debug\QLY_Sinhvien.exe.config
+C:\Users\Student\Downloads\QL_SinhVien-master\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.frmdangnhap.resources
+C:\Users\Student\Downloads\QL_SinhVien-master\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.frmMain.resources
+C:\Users\Student\Downloads\QL_SinhVien-master\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.Properties.Resources.resources
+C:\Users\Student\Downloads\QL_SinhVien-master\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.csproj.GenerateResource.Cache
+C:\Users\Student\Downloads\QL_SinhVien-master\QLY_Sinhvien\bin\Debug\QLY_Sinhvien.exe
+C:\Users\Student\Downloads\QL_SinhVien-master\QLY_Sinhvien\bin\Debug\QLY_Sinhvien.pdb
+C:\Users\Student\Downloads\QL_SinhVien-master\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.exe
+C:\Users\Student\Downloads\QL_SinhVien-master\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.pdb
+C:\Users\Student\Downloads\QL_SinhVien-master\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.csprojResolveAssemblyReference.cache
+C:\Users\Student\Downloads\QL_SinhVien-master\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.frmLop.resources
+C:\Users\Student\Downloads\QL_SinhVien-master\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.frmLop_02.resources
