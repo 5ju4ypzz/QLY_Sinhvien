@@ -50,9 +50,9 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMain.cs">
+    <SplashScreen Include="frmMain.cs">
       <SubType>Form</SubType>
-    </Compile>
+    </SplashScreen>
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
