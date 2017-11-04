@@ -31,6 +31,8 @@
             this.mnuQLySV = new System.Windows.Forms.MenuStrip();
             this.mnuDuLieu = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuLop = new System.Windows.Forms.ToolStripMenuItem();
+            this.lớpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuLopGv = new System.Windows.Forms.ToolStripMenuItem();
             this.mnusinhvien = new System.Windows.Forms.ToolStripMenuItem();
             this.mnumonhoc = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSVtheolop = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,8 +45,7 @@
             this.mnudoipass = new System.Windows.Forms.ToolStripMenuItem();
             this.mnugthieu = new System.Windows.Forms.ToolStripMenuItem();
             this.mnudong = new System.Windows.Forms.ToolStripMenuItem();
-            this.lớpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuLopGv = new System.Windows.Forms.ToolStripMenuItem();
+            this.lớpCommandToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuQLySV.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,11 +76,26 @@
             // 
             this.mnuLop.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lớpToolStripMenuItem,
-            this.mnuLopGv});
+            this.mnuLopGv,
+            this.lớpCommandToolStripMenuItem});
             this.mnuLop.Name = "mnuLop";
             this.mnuLop.Size = new System.Drawing.Size(169, 22);
             this.mnuLop.Text = "Lớp ";
             this.mnuLop.Click += new System.EventHandler(this.mnuLop_Click);
+            // 
+            // lớpToolStripMenuItem
+            // 
+            this.lớpToolStripMenuItem.Name = "lớpToolStripMenuItem";
+            this.lớpToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.lớpToolStripMenuItem.Text = "Lớp";
+            this.lớpToolStripMenuItem.Click += new System.EventHandler(this.lớpToolStripMenuItem_Click);
+            // 
+            // mnuLopGv
+            // 
+            this.mnuLopGv.Name = "mnuLopGv";
+            this.mnuLopGv.Size = new System.Drawing.Size(154, 22);
+            this.mnuLopGv.Text = "Lớp GirdView";
+            this.mnuLopGv.Click += new System.EventHandler(this.lớpGirdViewToolStripMenuItem_Click);
             // 
             // mnusinhvien
             // 
@@ -165,19 +181,12 @@
             this.mnudong.Text = "Thoát";
             this.mnudong.Click += new System.EventHandler(this.mnudong_Click);
             // 
-            // lớpToolStripMenuItem
+            // lớpCommandToolStripMenuItem
             // 
-            this.lớpToolStripMenuItem.Name = "lớpToolStripMenuItem";
-            this.lớpToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.lớpToolStripMenuItem.Text = "Lớp";
-            this.lớpToolStripMenuItem.Click += new System.EventHandler(this.lớpToolStripMenuItem_Click);
-            // 
-            // mnuLopGv
-            // 
-            this.mnuLopGv.Name = "mnuLopGv";
-            this.mnuLopGv.Size = new System.Drawing.Size(152, 22);
-            this.mnuLopGv.Text = "Lớp GirdView";
-            this.mnuLopGv.Click += new System.EventHandler(this.lớpGirdViewToolStripMenuItem_Click);
+            this.lớpCommandToolStripMenuItem.Name = "lớpCommandToolStripMenuItem";
+            this.lớpCommandToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.lớpCommandToolStripMenuItem.Text = "Lớp Command";
+            this.lớpCommandToolStripMenuItem.Click += new System.EventHandler(this.lớpCommandToolStripMenuItem_Click);
             // 
             // frmMain
             // 
@@ -219,6 +228,7 @@
         private System.Windows.Forms.ToolStripMenuItem mnudong;
         private System.Windows.Forms.ToolStripMenuItem lớpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mnuLopGv;
+        private System.Windows.Forms.ToolStripMenuItem lớpCommandToolStripMenuItem;
     }
 }
 

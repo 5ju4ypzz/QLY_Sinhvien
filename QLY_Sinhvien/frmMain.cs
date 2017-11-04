@@ -53,5 +53,11 @@ namespace QLY_Sinhvien
             frmLop_02 flop2 = new frmLop_02();
             flop2.ShowDialog();
         }
+
+        private void lớpCommandToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLop_03 fLop03 = new frmLop_03();
+            fLop03.ShowDialog();
+        }
     }
 }

@@ -56,6 +56,12 @@
     <Compile Include="frmLop_02.Designer.cs">
       <DependentUpon>frmLop_02.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmLop_03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLop_03.Designer.cs">
+      <DependentUpon>frmLop_03.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmLop_02.resx">
       <DependentUpon>frmLop_02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLop_03.resx">
+      <DependentUpon>frmLop_03.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

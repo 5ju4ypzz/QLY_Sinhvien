@@ -47,7 +47,7 @@ namespace QLY_Sinhvien
             txtMaychu.Text = "Localhost";
             txtMSSV.Text = "1065779";
             txtMatkhau.Text = "1679057";
-            txtMatkhau.PasswordChar = '*';
+            txtMatkhau.PasswordChar = '♥';
             txtMSSV.Focus();
         }
 

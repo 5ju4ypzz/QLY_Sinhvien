@@ -8,10 +8,10 @@ using System.Data.SqlClient;
 
 namespace QLY_Sinhvien
 {
-    public static class MyPublic
+    public static class Mypublic
     {
         public static SqlConnection conMyConnection;
-        public static string strsever, strMSSV, strLop, strQuyensd, strHK, strNK;
+        public static string strsever, strMSSV, strLop, strQuyenSD, strHK, strNK;
 
         public static void ConnectionDatabase()
         {
