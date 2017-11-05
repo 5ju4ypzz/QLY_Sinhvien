@@ -75,12 +75,12 @@ namespace QLY_Sinhvien
         }
         void GanDuLieu()
         {
-            if (dvSinhVien.Count > 0) 
+            if (dvSinhVien.Count > 0)
             {
                 txtMSSV.Text = dgvSinhVien[0, dgvSinhVien.CurrentRow.Index].Value.ToString();
                 txtHoLot.Text = dgvSinhVien[1, dgvSinhVien.CurrentRow.Index].Value.ToString();
                 txtTen.Text = dgvSinhVien[2, dgvSinhVien.CurrentRow.Index].Value.ToString();
-                if (dgvSinhVien[3,dgvSinhVien.CurrentRow.Index].Value.ToString()=="Nam")
+                if (dgvSinhVien[3, dgvSinhVien.CurrentRow.Index].Value.ToString() == "Nam")
                 {
                     rdoNam.Checked = true;
                 }
@@ -124,7 +124,7 @@ namespace QLY_Sinhvien
             cboLop.DisplayMember = "TenLop";
             cboLop.ValueMember = "MSLop";
             dsQuyenSD.Tables.Add("DSQuyenSD");
-            dsQuyenSD.Tables["DSQuyenSD"].Columns.Add("DSQuyenSD");
+            dsQuyenSD.Tables["DSQuyenSD"].Columns.Add("QuyenSD");
             dsQuyenSD.Tables["DSQuyenSD"].Rows.Add("User");
             dsQuyenSD.Tables["DSQuyenSD"].Rows.Add("AdminLop");
             dsQuyenSD.Tables["DSQuyenSD"].Rows.Add("AdminKhoa");
@@ -163,6 +163,15 @@ namespace QLY_Sinhvien
             DieuKhienKhiBinhThuong();
         }
 
-        public DataGridViewCellFormattingEventHandler dgvSinhVien_CellFormatting { get; set; }
+        private void dgvSinhVien_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            if (e.ColumnIndex==6)
+            {
+                if (e.Value!=null)
+                {
+                    e.Value = new string('*', e.Value.ToString().Length);
+                }
+            }
+        }
     }
 }
