@@ -202,6 +202,7 @@
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.dgvLop);
             this.Name = "frmLop_03";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Lớp chuyên ngành 03";
             this.Load += new System.EventHandler(this.frmLop_03_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLop)).EndInit();
