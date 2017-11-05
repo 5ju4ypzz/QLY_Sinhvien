@@ -59,5 +59,11 @@ namespace QLY_Sinhvien
             frmLop_03 fLop03 = new frmLop_03();
             fLop03.ShowDialog();
         }
+
+        private void mnusinhvien_Click(object sender, EventArgs e)
+        {
+            frmSinhVienTheoLop fsv = new frmSinhVienTheoLop();
+            fsv.ShowDialog();
+        }
     }
 }

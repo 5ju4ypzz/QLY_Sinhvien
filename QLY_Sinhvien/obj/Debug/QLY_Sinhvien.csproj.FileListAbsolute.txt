@@ -24,3 +24,6 @@ C:\Users\Admin\Source\Repos\NewRepo\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.csproj.G
 C:\Users\Admin\Source\Repos\NewRepo\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Source\Repos\NewRepo\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.exe
 C:\Users\Admin\Source\Repos\NewRepo\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.pdb
+C:\Users\Student\Downloads\QL_SinhVien-master\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.frmChonHK.resources
+C:\Users\Student\Downloads\QL_SinhVien-master\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.frmLop_03.resources
+C:\Users\Student\Downloads\QL_SinhVien-master\QLY_Sinhvien\obj\Debug\QLY_Sinhvien.frmSinhVienTheoLop.resources

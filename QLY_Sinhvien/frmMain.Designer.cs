@@ -33,6 +33,7 @@
             this.mnuLop = new System.Windows.Forms.ToolStripMenuItem();
             this.lớpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuLopGv = new System.Windows.Forms.ToolStripMenuItem();
+            this.lớpCommandToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnusinhvien = new System.Windows.Forms.ToolStripMenuItem();
             this.mnumonhoc = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSVtheolop = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,7 +46,6 @@
             this.mnudoipass = new System.Windows.Forms.ToolStripMenuItem();
             this.mnugthieu = new System.Windows.Forms.ToolStripMenuItem();
             this.mnudong = new System.Windows.Forms.ToolStripMenuItem();
-            this.lớpCommandToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuQLySV.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -97,11 +97,19 @@
             this.mnuLopGv.Text = "Lớp GirdView";
             this.mnuLopGv.Click += new System.EventHandler(this.lớpGirdViewToolStripMenuItem_Click);
             // 
+            // lớpCommandToolStripMenuItem
+            // 
+            this.lớpCommandToolStripMenuItem.Name = "lớpCommandToolStripMenuItem";
+            this.lớpCommandToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.lớpCommandToolStripMenuItem.Text = "Lớp Command";
+            this.lớpCommandToolStripMenuItem.Click += new System.EventHandler(this.lớpCommandToolStripMenuItem_Click);
+            // 
             // mnusinhvien
             // 
             this.mnusinhvien.Name = "mnusinhvien";
             this.mnusinhvien.Size = new System.Drawing.Size(169, 22);
             this.mnusinhvien.Text = "Sinh viên";
+            this.mnusinhvien.Click += new System.EventHandler(this.mnusinhvien_Click);
             // 
             // mnumonhoc
             // 
@@ -180,13 +188,6 @@
             this.mnudong.Size = new System.Drawing.Size(165, 22);
             this.mnudong.Text = "Thoát";
             this.mnudong.Click += new System.EventHandler(this.mnudong_Click);
-            // 
-            // lớpCommandToolStripMenuItem
-            // 
-            this.lớpCommandToolStripMenuItem.Name = "lớpCommandToolStripMenuItem";
-            this.lớpCommandToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
-            this.lớpCommandToolStripMenuItem.Text = "Lớp Command";
-            this.lớpCommandToolStripMenuItem.Click += new System.EventHandler(this.lớpCommandToolStripMenuItem_Click);
             // 
             // frmMain
             // 
